@@ -24,6 +24,9 @@ Folder/File description
   - .php files are used for filehandling (saving results files)
 
 NOTES:
+
+To use this code, place all files into a website domain within a folder called ObstacleAvoidance. You can access the link via {website address}/ObstacleAvoidance, e.g. https://engineering.purdue.edu/JainResearchLab/experiment_platforms/ObstacleAvoidance/
+
 **Automation Assistance - Scaling Factor:** In this experiment, the automation assistance is a scaling factor applied to the penguin's movement via mouse drag and click, ranging from 0.7 to 1.5. There are three groupings of scaling factors: Low (0.7, 0.8, 0.9), Medium (1.0, 1.1, 1.2), and High (1.3, 1.4, 1.5). The first five and last five trials use different groupings of scaling factors (e.g. trials 1-5 Low, trials 6-10 High), in which the specific scaling factor is randomized within the set of available scaling factor values within the group. To account for ordering effects, participants are randomly given a combination of scaling factor groups in the experiment. These are sorted into the following results folders:
   - Change_1: Low    -> Medium
   - Change_2: High   -> Medium
