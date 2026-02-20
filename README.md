@@ -20,8 +20,14 @@ Folder/File description
     - random_theta.js contains the JavaScript functions that alter the assistance value (in this case, a scaling factor) during trials.
   - Results folder contains all results in txt form.
     - Results are sorted into 4 folders depending on the ordering of scaling factor changes. See notes for more detail.
-  - index.html is the  is the HTML file that controls the user interface of the game.
+  - index.html is the HTML file that controls the user interface of the game.
   - .php files are used for filehandling (saving results files)
 
 NOTES:
-Automation Assistance - Scaling Factor
+**Automation Assistance - Scaling Factor:** In this experiment, the automation assistance is a scaling factor applied to the penguin's movement via mouse drag and click, ranging from 0.7 to 1.5. There are three groupings of scaling factors: Low (0.7, 0.8, 0.9), Medium (1.0, 1.1, 1.2), and High (1.3, 1.4, 1.5). The first five and last five trials use different groupings of scaling factors (e.g. trials 1-5 Low, trials 6-10 High), in which the specific scaling factor is randomized within the set of available scaling factor values within the group. To account for ordering effects, participants are randomly given a combination of scaling factor groups in the experiment. These are sorted into the following results folders:
+  - Change_1: Low    -> Medium
+  - Change_2: High   -> Medium
+  - Change_3: Medium -> Low
+  - Change_4: Medium -> High
+
+For more details on the experiment, please refer to the publication.
